@@ -4,10 +4,15 @@
 
 ### DOM :
 
-- Comprendre les propriétés des nœuds (https://javascript.info/basic-dom-node-properties) :
-  - nodeType
-  - innerHTML
-  - outerHTML
-  - textContent
-  - ...
-- Connaitre les attributs et propriétés du DOM (https://javascript.info/dom-attributes-and-properties)
+-[x] Comprendre les propriétés des nœuds (https://javascript.info/b[]asic-dom-node-properties) :
+ [x] - nodeType
+ [x] - innerHTML
+ [x] - outerHTML
+ [x] - textContent
+ [x] - ...
+-[x] Connaitre les attributs et propriétés du DOM (https://javascript.info/dom-attributes-and-properties)
+
+const wrapper = document.querySelector('#lastPosts');
+const loader = document.createElement('p');
+loader.innerText = 'Chargement...';
+wrapper.append(loader);

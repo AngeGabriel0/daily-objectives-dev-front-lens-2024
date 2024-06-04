@@ -2,4 +2,4 @@
 
 ## Vendredi 17/05/2024
 
-- [ ] Brief Katas JS
+- [x] Brief Katas JS
